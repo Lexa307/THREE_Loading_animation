@@ -1,0 +1,23 @@
+{
+  "name": "lexa307me",
+  "version": "1.0.0",
+  "description": "my ladding",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "webpack": "webpack",
+    "dev": "npm run webpack -- --mode development --watch",
+    "build": "npm run webpack -p -- --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lexa307 (Mr Bruh)",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.125.1",
+    "webpack": "^5.18.0",
+    "webpack-cli": "^4.4.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
